@@ -3,7 +3,7 @@ package ru.elocont.locationbeaconsandroid.model.response
 import com.squareup.moshi.Json
 
 data class CellLocation(
-    var status: String,
+    val status: String,
     val message: String?,
     val accuracy: Int?,
     val address: String?,
